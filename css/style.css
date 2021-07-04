@@ -1,0 +1,334 @@
+h5{
+    font-family: "Kaushan Script";
+}
+h3{
+    font-weight: 700;
+    font-family: "Montserrat"
+}
+p{
+color: #999999;
+font-weight: 400;
+font-family: "Roboto";
+}
+h3::after{
+    content: "";
+    width: 50px;
+    margin :auto;
+    display: block;
+    border-bottom: 4px solid tomato;
+    margin-top: 20px;
+}
+/* ............... navbar ............... */
+
+
+.navbar-light .navbar-nav .nav-link,.navbar-light .navbar-nav .active>.nav-link,.logo {
+font-size: 14px;
+color: #e5edf1;
+font-weight: 400;
+font-family: "Montserrat";
+text-align: center;
+}
+.navbar-light .navbar-nav .nav-link:hover,.navbar-light .navbar-nav .active>.nav-link:hover,.logo:hover,.navbar i:hover {
+    color: thistle;
+}
+.logo{
+font-size: 30px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Montserrat";
+}
+.logo:hover{
+    text-decoration: none;
+    color: thistle;
+}
+.navbar{
+    background-color: #CD9587 ;
+}
+
+/* ............... header ............... */
+/*  */
+.carousel-indicators {
+    bottom: -18rem;
+    width: 100%;
+    margin: 0px;
+    justify-content: space-between;
+}
+
+.carousel-indicators li {
+    width: 23%;
+    margin: 0 auto;
+}
+.carousel-indicators p {
+    margin-top: 2rem;
+    text-indent: 0px;
+    text-align: left;
+}
+
+.carousel-indicators .active {
+    background-image: linear-gradient(to right, red 0%,red 25%,#000000 25%,white 25%,white 100%) !important;
+}
+/*  */
+.header-section{
+    background: 
+    /* top, transparent red */ 
+    linear-gradient(
+      rgba(232, 151, 132,.75), 
+      rgba(239, 215, 138, 0.65)
+    ),
+    /* bottom, image */
+    url("../assets/header.png") ;
+    background-size: cover;
+    height: 100vh;
+}
+.header-section h2{
+font-size: 45px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Kaushan Script";
+text-align: center;
+}
+h1{
+font-size: 90px;
+line-height: 110px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Montserrat";
+text-align: center;
+}
+h1::after{
+    content: "";
+    width: 50px;
+    margin :auto;
+    border-bottom: 4px solid white;
+    text-align: center;
+}
+.btn{
+    font-family: "Montserrat";
+    color: white;
+    border-color: white;
+}
+
+.header-section .row{
+    display: flex;
+    flex-direction: column;
+}
+
+/* ............... story about us ............... */
+
+.story-hover{
+    display: none;
+}
+.story-img:hover .story-hover{
+    display: block;
+    right:10px;
+    bottom: 10px;
+    background-color: #C9A689;
+    opacity: .4;
+}
+.ui-state-active {
+    border: 1px solid #f0efea;
+    background: #d1d3d4;
+    font-weight: normal;
+    color: #fff;
+}
+/* ............... values ............... */
+
+.section-values{
+     /* linear-gradient(red, yellow, blue); */
+     background-image: linear-gradient(#95E1D3,#95E1D3 )
+}
+
+
+.section-values h3:after{
+    display: none;
+}
+
+/* ............... Amazing Services ............... */
+
+.Amazing-Services i{
+    font-size: 25px;
+    color: #95e1d3;
+}
+.Amazing-Services h6{
+    font-family: "Montserrat";
+}
+.Amazing-Services p{
+font-weight: 0;
+}
+
+/* ............... Unique design ............... */
+
+.Unique-design{
+    background-image: url('../assets/Layer\ 53.png');
+    background-size: cover;
+    opacity: .6;
+    height: 100vh;
+}
+
+.Unique-design-img img{
+    height: 76%;
+}
+.Unique-design-smallimg{
+    bottom: 0;
+    right: 200px;
+}
+
+
+/* ............... msg ............... */
+.msg{
+    background-color: #f8f8f8;
+}
+.msg-icon{
+    color: aqua;
+    font-size: 30px;
+    padding: 30px;
+    border:2px solid aqua !important ;
+}
+.msg h5::before{
+    content: "";
+    width: 50px;
+    display: inline-block;
+    border-bottom: 3px solid tomato;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 50px;
+    height: 60px;
+}
+.carousel-control-next-icon,.carousel-control-prev-icon {
+    background-color: #eaf0f1!important;
+}
+
+/* ............... our-team ............... */
+.our-team-icons{
+    left: 30%;
+    top: 40%;
+}
+.our-team-icons i{
+color:aquamarine;
+font-size: 30px; 
+padding: 5px;
+visibility: hidden;
+}
+.our-team-icons i:hover{
+    color: white;
+    background-color: tomato;
+    
+}
+.our-team-img{
+    background: 
+    /* top, transparent red */ 
+    linear-gradient(
+      rgba(252, 252, 252, 0), 
+      rgba(239, 215, 138, 0)
+    ),
+    /* bottom, image */
+    url("../assets/Layer\ 16.png") ;
+    background-size: cover;
+    opacity: .6;
+}
+.our-team .card{
+    height: 500px;
+}
+.our-team-img:hover{
+    background: 
+    /* top, transparent red */ 
+    linear-gradient(
+        rgba(232, 151, 132,.75), 
+        rgba(239, 215, 138, 0.65)
+    ),
+    /* bottom, image */
+    url("../assets/Layer\ 16.png") ;
+    background-size: cover;
+    opacity: .6;
+
+}
+.card .our-team-img:hover .our-team-icons i{
+    visibility: visible !important;
+}
+
+/* brands */
+.brands {
+    background-color: #f8f8f8;
+}
+
+/* someof-our-work */
+
+
+.someof-ourwork{
+    height: 100%;
+}
+.someof-ourwork-img{
+    height: 250px;
+}
+
+
+/* ............... last slider ............... */
+.last-slider{
+    background-color: rgb(250, 241, 241);
+}
+
+.last-slider h5::before{
+    content: "";
+    width: 50px;
+    display: inline-block;
+    border-bottom: 3px solid tomato;
+}
+
+/* ............... latest-blog ............... */
+
+.dayincard{
+    top:30%;
+    left: 0;
+    background-color: aquamarine;
+    color: white;
+    width: 15%;
+}
+
+/* ............... footer ............... */
+
+.footer{
+    background-color: #F8F8F8;
+}
+.footer-map{
+    background-image: url('../assets/Layer\ 59.png');
+    opacity: .7;
+    color: red;
+}
+.footer-map i{
+    font-size: x-large;
+}
+
+.footer-body i{
+    color: mediumturquoise;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+   h1{visibility: hidden;}
+    h2{font-size: 14px;}
+    h3{
+    font-weight: 500;
+    font-size: 18px;
+   }
+   h5{font-size: 14px;  }
+   p{font-size: 12px;}
+   span{font-size:12px;}
+    .Unique-design-img img{display: none;}
+    .Unique-design-smallimg{display: none}
+
+  }
+
+  @media screen and (max-width: 768px) {
+    h2{font-size: 16px;}
+    h3{
+     font-weight: 500;
+     font-size: 24px;
+    }
+    h5{font-size: 16px; }
+    p{font-size: 14px}
+    span{font-size:14px;}
+    .Unique-design-smallimg{display: none}
+
+   }
